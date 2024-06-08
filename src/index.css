@@ -1,0 +1,97 @@
+:root {
+    --bs-border-radius: 0;
+}
+
+* {
+    font-family: "Work Sans", sans-serif;
+}
+
+body {
+    height: 100vh !important;
+
+
+}
+
+h6 {
+    font-size: .9rem;
+}
+
+
+
+.navbar {
+    --bs-navbar-toggler-icon-bg: url(./assets/toggler-icon.svg);
+}
+
+.navbar-brand {
+    margin-left: 0.6rem;
+
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    width: 45px;
+    height: 45px;
+    background-size: 45px 45px;
+}
+
+.nav-link.active {
+    font-weight: 600;
+}
+
+.p-top {
+    padding-top: .4em;
+}
+
+.offcanvas {
+    --bs-offcanvas-width: auto;
+}
+
+.offcanvas-header .btn-close {
+    margin-left: 4em;
+}
+
+.btn-close {
+    --bs-btn-close-opacity: 1;
+}
+
+.logo {
+    height: 45px;
+}
+
+input.form-control {
+    --bs-border-width: 1px;
+    --bs-border-color: black;
+}
+
+.img-logo {
+    width: 45px;
+    height: 45px;
+}
+
+.star-padding {
+    margin: 0 2px;
+    /* Adjust the padding as needed */
+}
+
+.img-avatar {
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+
+}
+
+.icono-pipocard {
+    width: 50px;
+    padding: 5px 10px;
+    font-size: 16px;
+    height: 50px;
+}
+
+@media (max-width: 991.98px) {
+    .w-75 {
+        width: 90% !important;
+    }
+}
