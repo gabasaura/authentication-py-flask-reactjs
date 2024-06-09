@@ -2,7 +2,6 @@
 import React, { useState, useContext, useEffect } from "react";
 import { Context } from "../store/AppContext";
 import { Link, useNavigate } from "react-router-dom";
-import { toast } from "react-toastify";
 
 
 const Register = () => {
@@ -20,7 +19,6 @@ const Register = () => {
         <div className="d-flex flex-column min-vh-100">
             <div className="flex-column flex-grow-1 w-75 mx-auto py-5 align-items-center justify-content-center">
                 <h1 className="mb-3 text-center">Registro</h1>
-    
                 <form className="flex-fill" onSubmit={actions.handleRegister}>
                     <div className="card mt-5 p-0 border border-2 border-black">
 

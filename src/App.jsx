@@ -4,6 +4,7 @@ import NotFound from "./pages/NotFound";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import injectContext from "./store/AppContext";
+import { ToastContainer } from 'react-toastify';
 
 
 
@@ -17,6 +18,7 @@ const App = () => {
                     <Route path="/login" element={<Login />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
+                <ToastContainer />
             </BrowserRouter>
     )
 }
